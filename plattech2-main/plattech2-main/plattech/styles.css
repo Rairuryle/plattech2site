@@ -1,0 +1,53 @@
+:root {
+    --main-color: #0C2D57;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+.bg-container {
+    margin: 2rem;
+    position: relative;
+}
+
+.bg-starry {
+    width: 100%;
+}
+
+.rounded-circle {
+    width: 4.3rem;
+    height: 4rem;
+}
+
+.links-container {
+    width: 35rem;
+    margin-left: 1.5rem;
+    border-radius: 30px;
+}
+
+.navbar-container {
+    padding-top: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 12px; /* Adjust the font size as needed */
+}
+
+.navbar-nav {
+    padding: 0 2rem;
+}
+
+.nav-link, .navbar-text {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.navbar-text {
+    font-size: 2rem;
+}
+
+.right-content-container-two {
+    margin-top: -4.5rem;
+}
